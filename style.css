@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
+}
+.headline{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.orange-color{
+    color: orange;
+}
+.top-banner{
+    display: flex;
+    margin-bottom: 50px;
+}
+.top-div{
+    width: 50%;
+    padding: 170px 2px 5px 80px;
+}
+.top-div-pic img{
+    width: 650px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 17px 35px;
+    border-radius: 50px;
+}
+.button:hover{
+    color: orange;
+    background: blueviolet !important;
+}
+.mid-banner{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin: 0%;
+}
+.mid-div{
+    width: 50%;
+    padding: 100px 50px;
+    font-family: sans-serif;
+}
+.mid-h2{
+    color: gray;
+    font-size: 35px;
+}
+.para{
+    font-size: 18px;
+}
+.mid-div-pic{
+    padding-top: 0px;
+    padding-right: 20px;
+}
+.my-recipies{
+    color: rgb(103, 92, 92);
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+.recipi-box{
+    display: flex;
+    margin-top: 15px;
+}
+.recipi-div1{
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 50%;
+    border: 25px solid white;
+    box-shadow: 10px 10px 15px rgb(179, 175, 175);
+    margin-left: 5%;
+    margin-right: 1%;
+    border-radius: 30px;
+}
+.recipi-div2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 50%;
+    border: 25px solid white;
+    box-shadow: 10px 10px 15px rgb(179, 175, 175);
+    margin-left: 1%;
+    margin-right: 5%;
+    border-radius: 30px;
+}
+.recipi-img{
+    width: 100%;
+}
+.subs{
+    display: flex;
+    height: 226px;
+    text-align: center;
+    border: 10px solid white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px gray;
+}
+.subs-item{
+    font-size: 100%;
+    width: 33%;
+    text-align: center;
+    padding-top: 40px;
+}
+.footer{
+        background: black;
+        border: 10px solid black;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 2%;
+        margin-bottom: 0;
+        Width: 99%; 
+        Height: 230px;
+}
+.footer-text{
+    text-align: center;
+    color: white;
+}
+.gray{
+    color: gray;
+}
